@@ -2,7 +2,7 @@
 
 Auto-provision Hetzner Cloud from PeltyCMS orders
 
-Official **provisioning module** for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS) — identifier `provisioning-hetzner-cloud`.
+Official provisioning module for [PeltyCMS](https://github.com/MythicalLTD/PeltyCMS).
 
 ## Why this addon
 
@@ -18,25 +18,21 @@ Providers who sell hosting, VPS, game panels or cloud and need auto-create on pa
 
 ## How it works
 
-1. Install **Hetzner Cloud** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-hetzner-cloud) (or Pelty Admin → Addons → Marketplace).
-2. Open Pelty Admin and enter your Hetzner Cloud credentials in the addon settings.
-3. Attach it to the products / forms / login flows you care about.
-4. New orders and sign-ins use Hetzner Cloud automatically.
+1. Install **Hetzner Cloud** from the [Mythical marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-hetzner-cloud) inside Pelty Admin → Addons.
+2. Open Pelty Admin → Products, map a product to the Hetzner Cloud module, and save API credentials.
+3. Customers hit checkout / login / order flow as usual — Hetzner Cloud runs in the background.
 
 ## Requirements
 
-- A running PeltyCMS panel with WASM addons enabled
-- Valid Hetzner Cloud API / OAuth / panel credentials (depending on the integration)
-- Outbound HTTPS from the panel to Hetzner Cloud
+- PeltyCMS with WASM addons enabled
+- Working Hetzner Cloud credentials
+- Outbound HTTPS from your panel
 
 ## Get it
 
-[Hetzner Cloud on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-hetzner-cloud)
-
-Free official build. Source for this package lives in this repository.
+**[Hetzner Cloud on Mythical Marketplace](https://market.mythicalsystems.org/marketplace/product/provisioning-hetzner-cloud)**
 
 ## Support
 
-- Marketplace product page: https://market.mythicalsystems.org/marketplace/product/provisioning-hetzner-cloud
-- PeltyCMS core: https://github.com/MythicalLTD/PeltyCMS
-- Issues for this addon: use this repo’s Issues tab
+Bugs and questions for this addon → Issues on this repo.  
+PeltyCMS core → https://github.com/MythicalLTD/PeltyCMS
